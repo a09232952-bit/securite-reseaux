@@ -13,6 +13,8 @@ nav button,.ghost{background:none;border:1px solid var(--bd);color:var(--tx);pad
 nav button.on{background:var(--ac);color:#fff;border-color:var(--ac)}
 button:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
 .lead{color:var(--mu);margin:4px 0 18px}
+.count-control{display:flex;align-items:center;gap:12px;margin:0 0 16px;font-family:"Trebuchet MS",system-ui,sans-serif;font-size:.95rem}
+.count-control input{width:96px;padding:8px 10px;border:1px solid var(--bd);border-radius:6px;background:var(--sf);color:var(--tx);font:inherit}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
 .cat{text-align:left;background:var(--sf);border:1px solid var(--bd);border-radius:10px;padding:13px;cursor:pointer;color:var(--tx);font-size:.95rem}
 .cat b{display:block;font-size:1.02rem}.cat span{color:var(--mu);font-size:.85rem}
